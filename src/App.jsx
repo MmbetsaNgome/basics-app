@@ -45,6 +45,36 @@ function App() {
             <p className="text-gray-600 mt-2">
               Select a project from the navigation bar above.
             </p>
+            <h2> To Start your own follow the instructions below</h2>
+            <p>Open your terminal or command prompt. These commands create a new Vite project using the React template and install the necessary default dependencies.
+
+01:Create the Vite Project: 
+npm create vite@latest project-name
+
+02:Navigate and Install Base Dependencies:
+cd project-name
+npm install
+
+03:Install Tailwind CSS(Install tailwindcss and @tailwindcss/vite via npm.)
+npm install tailwindcss @tailwindcss/vite
+
+{/* 04:Configure the Vite plugin(Add the @tailwindcss/vite plugin to your Vite configuration.(vite.config.ts))
+
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
+
+
+05:Import Tailwind CSS (Add an @import to your CSS file that imports Tailwind CSS.)
+@import "tailwindcss";
+
+06:Start your build process
+npm run dev */}
+            </p>
           </div>
         );
     }

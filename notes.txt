@@ -1,12 +1,10 @@
-
-
 Open your terminal or command prompt. These commands create a new Vite project using the React template and install the necessary default dependencies.
 
 01:Create the Vite Project: 
 npm create vite@latest project-name
 
 02:Navigate and Install Base Dependencies:
-cd beginner-react-projects
+cd project-name
 npm install
 
 03:Install Tailwind CSS(Install tailwindcss and @tailwindcss/vite via npm.)
