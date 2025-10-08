@@ -4,22 +4,22 @@ import React from "react";
 const photos = [
   {
     id: 1,
-    url: "https://placehold.co/300x200/4F46E5/FFFFFF?text=React",
+    url: "https://placehold.co/300x200/ffbe0b/FFFFFF?text=React",
     title: "React Hooks",
   },
   {
     id: 2,
-    url: "https://placehold.co/300x200/F59E0B/FFFFFF?text=Vite",
+    url: "https://placehold.co/300x200/fb5607/FFFFFF?text=Vite",
     title: "Vite Setup",
   },
   {
     id: 3,
-    url: "https://placehold.co/300x200/10B981/FFFFFF?text=Tailwind",
+    url: "https://placehold.co/300x200/ff006e/FFFFFF?text=Tailwind",
     title: "Tailwind CSS",
   },
   {
     id: 4,
-    url: "https://placehold.co/300x200/EF4444/FFFFFF?text=JS",
+    url: "https://placehold.co/300x200/3a86ff/FFFFFF?text=JS",
     title: "ES6 Refresher",
   },
 ];

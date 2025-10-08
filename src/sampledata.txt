@@ -1,0 +1,63 @@
+Data for user profiles
+
+const usersData = [
+        {
+            id: 1,
+            name: "Anya Sharma",
+            title: "Frontend Developer",
+            bio: "Building beautiful and responsive web interfaces using React and Tailwind CSS. Enthusiastic about modular design.",
+            imageUrl: "https://placehold.co/600x480/3182CE/FFFFFF?text=Anya+S"
+        },
+        {
+            id: 2,
+            name: "Ben Carter",
+            title: "UX/UI Designer",
+            bio: "Focusing on user-centric design principles and prototyping in Figma. I bring concepts to life in the browser.",
+            imageUrl: "https://placehold.co/600x480/059669/FFFFFF?text=Ben+C"
+        },
+        {
+            id: 3,
+            name: "Chloe Lee",
+            title: "Technical Writer",
+            bio: "Creating clear, concise documentation for developers. My passion is translating complex code into understandable concepts.",
+            imageUrl: "https://placehold.co/600x480/D97706/FFFFFF?text=Chloe+L"
+        }
+    ];
+
+____________________________________________________________________________________________________________________________-
+
+Data for Gallery. 
+
+const photos = [
+  {
+    id: 1,
+    url: "https://placehold.co/300x200/ffbe0b/FFFFFF?text=React",
+    title: "React Hooks",
+  },
+  {
+    id: 2,
+    url: "https://placehold.co/300x200/fb5607/FFFFFF?text=Vite",
+    title: "Vite Setup",
+  },
+  {
+    id: 3,
+    url: "https://placehold.co/300x200/ff006e/FFFFFF?text=Tailwind",
+    title: "Tailwind CSS",
+  },
+  {
+    id: 4,
+    url: "https://placehold.co/300x200/3a86ff/FFFFFF?text=JS",
+    title: "ES6 Refresher",
+  },
+  {
+    id: 5,
+    url: "https://placehold.co/300x200/8ac926/FFFFFF?text=Node",
+    title: "Node JS",
+  },
+  {
+    id: 4,
+    url: "https://placehold.co/300x200/d90429/FFFFFF?text=MYSQL",
+    title: "MYSQL Database",
+  },
+];
+

@@ -8,6 +8,7 @@ import ToDoList from "./components/ToDoList";
 import PortfolioRouter from "./components/PortfolioRouter"; // Your multi-page capstone
 import MultipleProfiles from "./components/MultipleProfiles";
 import NotesTxt from "./notes.txt"
+import SampleData from "./sampledata.txt"
 
 // Define the available projects
 const projects = [
@@ -55,6 +56,17 @@ function App() {
             >
               <button className="mt-3 px-4 py-2 rounded-lg text-sm font-medium bg-green-950 text-white">
                 Download Instructions file
+              </button>
+            </a>
+            <h2 className="mt-3"> Sample Data</h2>
+            <a
+              href={SampleData}
+              download="Sample Data "
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="mt-3 px-4 py-2 rounded-lg text-sm font-medium bg-red-700 text-white">
+                Download Sample Data
               </button>
             </a>
           </div>
